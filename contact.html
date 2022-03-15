@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+
+    <script src="https://kit.fontawesome.com/37176ac471.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+             <a href="index.html"><img src="images/logo.png" alt=""></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="courses.html">COURSE</a></li>
+                     <li><a href="blog.html">BLOG</a></li>
+                     <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fas fa-bars" onclick="showMenu()"></i> 
+        </nav>
+
+        <h1>Contact Us</h1>
+    </section> 
+
+    <section class="gmap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555118311!2d-122.50764009636814!3d37.75781499646426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1646720565436!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+               <div>
+                <i class="fas fa-home"></i> 
+                <span><h1>Xyz Road, Abc building</h1>
+                <p>San Francisco, CA, USA</p>
+                </span>
+               </div> 
+
+               <div>
+                <i class="fas fa-phone-alt"></i> 
+                <span><h1>+1 0123456789</h1>
+                <p>Monday to Saturday 10 Am to 6 Pm</p>
+                </span>
+               </div> 
+
+               <div>
+                <i class="far fa-envelope"></i>
+                <span><h1>abc@xyz.com</h1>
+                <p>Email us your query</p>
+                </span>
+               </div> 
+
+
+            </div>
+
+
+            <div class="contact-col">
+                <form action="" class="inquiry-form">
+                    <input type="text" placeholder="Enter your name">
+                    <input type="email" placeholder="Enter email address">
+                    <input type="text" placeholder="Enter your subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Messages"></textarea>
+                    <button class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+      
+
+    </div>
+
+    
+    
+
+   
+
+
+
+
+
+<section class="footer">
+    <h1>About Us</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dignissimos pariatur a quis rerum  <br> pariatur a quis rerum incidunt provident voluptate eum in ex!</p>
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+    </div>
+
+</section>
+
+
+
+<!-- JavaScript to toggle menu option -->
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+      navLinks.style.right = "0";
+  }
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+</script>    
+</body>
+</html>
